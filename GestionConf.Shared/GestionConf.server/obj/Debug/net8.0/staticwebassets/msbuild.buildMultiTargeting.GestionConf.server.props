@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\GestionConf.server.props" />
+</Project>
