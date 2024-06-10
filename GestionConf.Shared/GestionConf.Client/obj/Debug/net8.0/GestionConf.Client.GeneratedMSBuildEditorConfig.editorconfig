@@ -46,6 +46,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/dell/Desktop/Deuxième année  IAI (semestre 4)/Programmation C Sharp/GestionConference/GestionConference/GestionConf.Shared/GestionConf.Client/Shared/LoginLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXExvZ2luTGF5b3V0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dell/Desktop/Deuxième année  IAI (semestre 4)/Programmation C Sharp/GestionConference/GestionConference/GestionConf.Shared/GestionConf.Client/Shared/SignLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFNpZ25MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/dell/Desktop/Deuxième année  IAI (semestre 4)/Programmation C Sharp/GestionConference/GestionConference/GestionConf.Shared/GestionConf.Client/Shared/SurveyPrompt.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/dell/Desktop/Deuxième année  IAI (semestre 4)/Programmation C Sharp/GestionConference/GestionConference/GestionConf.Shared/GestionConf.Client/Components/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-cp1x3peuvl
@@ -53,3 +65,11 @@ build_metadata.AdditionalFiles.CssScope = b-cp1x3peuvl
 [C:/Users/dell/Desktop/Deuxième année  IAI (semestre 4)/Programmation C Sharp/GestionConference/GestionConference/GestionConf.Shared/GestionConf.Client/Components/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTmF2TWVudS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-1xje9b2bgh
+
+[C:/Users/dell/Desktop/Deuxième année  IAI (semestre 4)/Programmation C Sharp/GestionConference/GestionConference/GestionConf.Shared/GestionConf.Client/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-z9g2gr1b3b
+
+[C:/Users/dell/Desktop/Deuxième année  IAI (semestre 4)/Programmation C Sharp/GestionConference/GestionConference/GestionConf.Shared/GestionConf.Client/Shared/NavMenu.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-s37lido795

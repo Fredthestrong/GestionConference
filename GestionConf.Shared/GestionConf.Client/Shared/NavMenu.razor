@@ -1,0 +1,77 @@
+﻿<div style="background-color: #053a33" class="flex-row top-row ps-3 navbar navbar-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href=""><h5><strong>KoraTransfert <span class="oi oi-dollar"></span></strong></h5></a>
+        <button title="Navigation menu" class="navbar-toggler" @onclick="ToggleNavMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+</div>
+<div style="background-color: #06483e" class="@NavMenuCssClass nav-scrollable" @onclick="ToggleNavMenu">
+    <nav class="flex-column">
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="dashboard" Match="NavLinkMatch.All">
+                <span class="oi oi-home" aria-hidden="true"></span> Dashboard
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="clients">
+                <span class="oi oi-people" aria-hidden="true"></span> Clients
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="comptes">
+                <span class="oi oi-clipboard" aria-hidden="true"></span> Comptes
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="agences">
+                <span class="oi oi-vertical-align-top"></span> Agences
+            </NavLink>
+        </div>
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="responsables">
+                <span class="oi oi-people"></span> Responsables
+            </NavLink>
+        </div>
+        
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="kiosques">
+                <span class="oi oi-vertical-align-top"></span> Kiosques
+            </NavLink>
+        </div>
+        
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="transactions">
+                <span class="oi oi-loop-circular"></span> Transactions
+            </NavLink>
+        </div>
+        
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="configurations">
+                <span class="oi oi-cog"></span> Configurations
+            </NavLink>
+        </div>
+        
+        
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="login">
+                <span class="oi oi-account-logout"></span> Déconnexion
+            </NavLink>
+        </div>
+    </nav>
+    
+</div>
+
+@code {
+    private string loggedInProfileName = "";
+    
+    private bool collapseNavMenu = true;
+
+    private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+
+    private void ToggleNavMenu()
+    {
+        collapseNavMenu = !collapseNavMenu;
+    }
+    
+}
